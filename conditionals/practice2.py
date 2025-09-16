@@ -1,6 +1,6 @@
 # 2. Movie Ticket Pricing
 # Problem: Movie tickets are priced based on age: $12 for adults (18 and over),
-#.         $8 for children. Everyone gets a $2 discount on Wednesday.
+#          $8 for children. Everyone gets a $2 discount on Wednesday.
 
 age = int(input("Enter Your Age : "))
 day = input("is today the day? : ")
