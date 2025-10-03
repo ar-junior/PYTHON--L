@@ -1,4 +1,6 @@
-# calculator
+#  mini - project ⭐️
+#  calculator
+
 operator = (input("enter an operator (+ - * /) : "))
 num1 = float(input("enter the 1st number = "))
 num2 = float(input("enter the 2nd number = "))
