@@ -1,6 +1,6 @@
 #  mini - project ⭐️
 
-# Quiz game -
+#  Quiz game -
 # questions
 questions = ("How many elements are in the periodic table?",
             "Which animal lays the largest eggs?",
