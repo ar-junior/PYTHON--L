@@ -1,6 +1,6 @@
 #  mini - project ⭐️
 
-# Python compound interest calculator
+#  Python compound interest calculator
 # A = p(1+r/n)**t
 
 principle = 0

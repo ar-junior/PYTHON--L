@@ -1,6 +1,6 @@
 #  mini - project ⭐️
 
-# countdown timer program -
+#  countdown timer program -
 import time
 
 user = int(input("Enter time in seconds : "))
