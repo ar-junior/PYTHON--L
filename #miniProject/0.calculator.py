@@ -1,5 +1,7 @@
 #  mini - project ⭐️
-#  calculator
+
+#  calculator -
+#  using if statements and arithmetic operators.
 
 operator = (input("enter an operator (+ - * /) : "))
 num1 = float(input("enter the 1st number = "))

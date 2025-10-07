@@ -1,6 +1,7 @@
 #  mini - project ⭐️
 
-#  temperature conversion 
+#  temperature conversion -
+#  using if statements and arithmetic operators.
 
 unit = input("Is this temperature in Celsius or Fahrenheit (C/F): ")
 temp = float(input("Enter the temperature: "))
@@ -15,3 +16,4 @@ elif unit == "F":
     print(f"The temperature in Celsius is: {temp}°C")
 else:
     print(f"{unit} is an invalid unit of measurement")
+    

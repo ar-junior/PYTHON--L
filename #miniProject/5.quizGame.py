@@ -1,14 +1,17 @@
 #  mini - project ⭐️
 
 #  Quiz game -
-# questions
+#  Create a quiz game to ask the user 5 questions and check their answers.
+#  using loops, conditional statements, and data structures.
+
+# questions for the quiz
 questions = ("How many elements are in the periodic table?",
             "Which animal lays the largest eggs?",
             "What is the most abundant gas in Earth's atmosphere?",
             "How many bones are in the human body?",
             "Which planet in the solar system is the hottest?")
 
-# options
+# options for the questions
 options = (("A. 116", "B. 117", "C. 118", "D. 119"),
             ("A. Whale", "B. Crocodile", "C. Elephant", "D. Ostrich"),
             ("A. Nitrogen", "B. Oxygen", "C. Carbon-Dioxide", "D. Hydrogen"),
@@ -19,7 +22,7 @@ answer = ("C","D","A","A","B")
 score = 0
 question_num = 1
 
-# print the question
+# print the question and options
 for question in questions:
     print("---------------------------\n")
     print(f"{question_num}).{question}")
@@ -27,11 +30,11 @@ for question in questions:
         print(option)
     print()
     select = input("Enter your answer(A,B,C,D): ").upper()
-    while select not in ("A","B","C","D") : # check the valid option
+    while select not in ("A","B","C","D") : # check the valid option 
         print("----enter valid option----\n")
         select = input("Enter your answer(A,B,C,D): ").upper()
 
-    # check the answer
+    # check the answer and calculate the score
     if select == answer[question_num-1]:
         print("--> CORRECT")
         score += 1
@@ -40,7 +43,7 @@ for question in questions:
         print(f"{answer[question_num-1]} is the correct answer")
     question_num += 1
 
-# print the result
+# print the result of the quiz 
 print("---------------------------")
 print("          RESULT          ")
 print("---------------------------\n")

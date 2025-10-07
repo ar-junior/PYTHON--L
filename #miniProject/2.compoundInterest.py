@@ -1,7 +1,8 @@
 #  mini - project ⭐️
 
-#  Python compound interest calculator
-# A = p(1+r/n)**t
+#  Python compound interest calculator -
+#  A = p(1+r/n)**t
+#  using while loop 
 
 principle = 0
 rate = 0
