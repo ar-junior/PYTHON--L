@@ -33,3 +33,4 @@ while True : # time <=0 :
 total = principle* pow((1+rate/100),time)
 
 print(f"Balance after {time} year/s: ₹{total:.2f}")
+
